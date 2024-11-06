@@ -125,8 +125,8 @@ export const TOKENDISTRIBUTION_DATA_LIST = [
         description: "Funds promotional campaigns, partnerships, and community-building activities to increase visibility and attract new participants.",
     },
     {
-        percentage: "5%",
+        percentage: "5",
         title: "Company Tokens (Locked)",
-        description: "Reserved for the development team to fund long-term development goals, additional features, and community initiatives. Locked for 24 months to demonstrate the team's commitment.",
+        description: "Reserved for the development team to fund long-term development goals, additional features, and community initiatives. Locked for ",
     },
 ];
