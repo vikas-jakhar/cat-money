@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'comic': "'Comic Sans MS', serif",
+        'barlow': "'Barlow', serif",
         'luckiest': "'Luckiest Guy', cursive",
         'inter': "'Inter', sans-serif",
       },
@@ -20,16 +21,26 @@ module.exports = {
           'sm': "640px",
           'md': "768px",
           'lg': "1024px",
-          'xl': "1320px",
+          'xl': "1280px",
+          '2xl': "1320px",
         },
       },
       colors: {
         'off-black': "#0D0D0D",
         'off-red': "#DB3357",
+        'off-pink': "#EB879C",
         'deep-red': "#BC2445",
       },
+      fontSize: {
+        'custom-xl': "28px",
+        'custom-3xl': "73px",
+      },
       lineHeight: {
-        'xl': "100%"
+        'xl': "100%",
+        '2xl': "110%",
+        '3xl': "120%",
+        '4xl': "130%",
+        '5xl': "150%",
       },
     },
   },
