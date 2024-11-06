@@ -32,6 +32,7 @@ module.exports = {
         'off-pink': "#EB879C",
         'deep-red': "#BC2445",
         'light-black': "#191919",
+        'deep-black': "#141414",
       },
       fontSize: {
         'custom-xl': "11px",
@@ -50,6 +51,7 @@ module.exports = {
         '4xl': "130%",
         '5xl': "140%",
         '6xl': "150%",
+        '7xl': "190%",
       },
       letterSpacing: {
         'xl': "1px",

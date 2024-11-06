@@ -1,7 +1,7 @@
 const Heading = ({
     reduceBelow = 1024,
     maxFontSize = 64,
-    minFontSize = 30,
+    minFontSize = 36,
     className = '',
     children,
     ...props

@@ -44,6 +44,7 @@ const Icon = ({ iconName = '', className = '' }) => {
             <svg className="fill-white duration-300 ease-linear group-hover:fill-off-red" width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13.5 8L-7.34099e-07 15.7942L-5.27059e-08 0.205771L13.5 8Z" />
             </svg>
+
         ),
     };
 
