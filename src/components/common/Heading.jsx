@@ -9,7 +9,7 @@ const Heading = ({
     const sizeReducer = (100 / reduceBelow) * maxFontSize;
 
     return (
-        <h2 {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`${className} font-bold leading-8 md:leading-9 lg:leading-custom-3xl -tracking-xl`}>
+        <h2 {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`${className} font-normal font-luckiest tracking-xl text-off-pink text-center lg:text-left !leading-3xl`}>
             {children}
         </h2>
     );

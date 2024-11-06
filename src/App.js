@@ -3,6 +3,9 @@ import AsSeen from './components/home/AsSeen';
 import Hero from './components/home/Hero';
 import HowItWorks from './components/home/HowItWorks';
 import MassiveBurgerz from './components/home/MassiveBurgerz';
+import Roadmap from './components/home/Roadmap';
+import TheMagic from './components/home/TheMagic';
+import Tokenomics from './components/home/Tokenomics';
 import WhatCatMoney from './components/home/WhatCatMoney';
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
       <AsSeen />
       <WhatCatMoney />
       <HowItWorks />
+      <TheMagic />
+      <Tokenomics />
+      <Roadmap />
     </div>
   );
 }
