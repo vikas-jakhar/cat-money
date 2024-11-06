@@ -1,5 +1,6 @@
 import './App.css';
 import AsSeen from './components/home/AsSeen';
+import Faqs from './components/home/Faqs';
 import Hero from './components/home/Hero';
 import HowItWorks from './components/home/HowItWorks';
 import MassiveBurgerz from './components/home/MassiveBurgerz';
@@ -19,6 +20,7 @@ function App() {
       <TheMagic />
       <Tokenomics />
       <Roadmap />
+      <Faqs />
     </div>
   );
 }
