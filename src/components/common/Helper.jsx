@@ -93,3 +93,40 @@ export const FAQS_DATA_LIST = [
         answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
     }
 ];
+export const TOKENDISTRIBUTION_DATA_LIST = [
+    {
+        percentage: "20",
+        title: "Presale Tranche 1",
+        description: "Funds operations, initial prize pools, and allows early supporters to acquire tokens at the best rate.",
+    },
+    {
+        percentage: "20",
+        title: "Presale Tranche 2",
+        description: "Continues to fund operations and prize pools, offering tokens at a competitive rate after Tranche 1.",
+    },
+    {
+        percentage: "25",
+        title: "DEX Liquidity",
+        description: "Provides liquidity on decentralized exchanges to ensure minimal slippage and price stability, supporting a healthy trading ecosystem.",
+    },
+    {
+        percentage: "10",
+        title: "CEX Tokens",
+        description: "Allocated for listing fees and providing liquidity on centralized exchanges, enhancing accessibility and trading volume for CatMoney Tokens.",
+    },
+    {
+        percentage: "10",
+        title: "Liquidity Mining / Staking Rewards",
+        description: "Rewards users who contribute to the CatMoney ecosystem through liquidity mining and staking.",
+    },
+    {
+        percentage: "10",
+        title: "Marketing",
+        description: "Funds promotional campaigns, partnerships, and community-building activities to increase visibility and attract new participants.",
+    },
+    {
+        percentage: "5%",
+        title: "Company Tokens (Locked)",
+        description: "Reserved for the development team to fund long-term development goals, additional features, and community initiatives. Locked for 24 months to demonstrate the team's commitment.",
+    },
+];
