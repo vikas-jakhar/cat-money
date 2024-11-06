@@ -9,7 +9,7 @@ const Paragraph = ({
     const sizeReducer = (100 / reduceBelow) * maxFontSize;
 
     return (
-        <p {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`text-white font-light font-barlow !leading-5xl ${className}`}>
+        <p {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`text-white font-light font-barlow !leading-6xl ${className}`}>
             {children}
         </p>
     );
