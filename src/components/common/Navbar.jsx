@@ -23,7 +23,7 @@ const Navbar = () => {
     }, [open]);
 
     return (
-        <div className="relative z-50 py-7">
+        <div className="relative z-50 md:py-7 sm:py-5 py-4">
             <div className="container">
                 <nav className="flex items-center justify-between relative">
                     <a href="/" className="lg:max-w-[108px] max-w-14 sm:max-w-20 w-full"><img src={catMoney} alt="catMoney" className='w-full' /></a>
