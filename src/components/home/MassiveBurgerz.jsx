@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MASSIVE_BURGER_DATA_LIST } from '../common/Helper'
 import bonusMachine from "../../assets/images/png/bonus-machine.png";
-import cat from "../../assets/images/png/cat.png";
+import cat from "../../assets/images/gif/funny-cat.gif";
 import Icon from '../common/Icons';
 import Button from '../common/Button';
 
@@ -33,18 +33,18 @@ const MassiveBurgerz = () => {
                     <div className="max-w-[522px] w-full">
                         <h2 className='font-normal text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
                         {MASSIVE_BURGER_DATA_LIST.map((items, index) => (
-                            <div key={index} className="lg:mt-10 md:mt-7 sm:mt-5 mt-3">
+                            <div key={index} className="lg:mt-10 md:mt-7 sm:mt-5 mt-4">
                                 <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-6xl md:text-custom-7xl lg:text-custom-8xl font-normal tracking-3xl'>{items.title}</p>
                                 <p className='font-comic font-bold text-white text-center lg:text-left text-xl sm:text-2xl md:text-custom-3xl !leading-3xl'>{items.subTitle}</p>
                                 <p className='font-barlow font-light !leading-6xl text-center lg:text-left text-white mt-2 md:mt-4 text-base sm:text-lg md:text-xl'>{items.description}</p>
                             </div>
                         ))}
-                        <div className="lg:mt-10 md:mt-7 mt-5 sm:flex-row flex-col flex items-center justify-between gap-3 py-4 px-6 bg-light-black">
+                        <div className="lg:mt-10 md:mt-7 mt-6 sm:flex-row flex-col flex items-center justify-between gap-3 py-4 px-6 bg-light-black">
                             <div className="sm:max-w-[217px] w-full">
                                 <p className='text-off-pink font-normal tracking-2xl font-luckiest text-custom-4xl !leading-3xl'>BONUS: </p>
                                 <p className='text-white font-bold font-barlow text-xl !leading-6xl'>Get even MOAR BURGERZ with da red dot mashien</p>
                             </div>
-                            <img src={bonusMachine} alt="bonusMachine" className='max-w-[233px] w-full' />
+                            <img src={bonusMachine} alt="bonusMachine" className='sm:max-w-[233px] max-w-[300px] w-full' />
                         </div>
                     </div>
                     <div className="max-w-[630px] w-full border-4 sm:border-8 border-off-pink bg-white rounded-[40px] sm:py-10 p-5 sm:px-8 lg:px-5 xl:px-8">
@@ -67,7 +67,9 @@ const MassiveBurgerz = () => {
                         </div>
                         <h2 className='md:mt-10 sm:mt-7 mt-5 font-luckiest font-normal text-off-pink text-3xl sm:text-5xl xl:text-custom-6xl tracking-2xl !leading-2xl text-center'>Join the catMoney Catch <span className='font-luckiest text-black'>Pre-SaLE</span></h2>
                         <div className="md:mt-10 sm:mt-7 mt-5 flex gap-4 items-center sm:items-start flex-col sm:flex-row justify-between">
-                            <img src={cat} alt="cat" className='max-w-[178px] w-full' />
+                            <div className="max-w-[178px] bg-off-pink rounded-full overflow-hidden">
+                                <img src={cat} alt="cat" className='w-full' />
+                            </div>
                             <div className="max-w-[338px] w-full">
                                 <p className='font-comic font-bold text-xl text-center sm:text-left sm:text-2xl xl:text-custom-2xl !leading-3xl'>Token Launches August 1</p>
                                 <p className='sm:mt-2.5 mt-1.5 font-barlow font-light text-base text-center sm:text-left xl:text-lg !leading-6xl'>Every week we will use the pool to catch da red dot. When the timer hits zero, the red dot is caught and we get the jackpot.</p>

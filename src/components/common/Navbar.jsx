@@ -34,8 +34,8 @@ const Navbar = () => {
                                 {item.title}
                             </a>
                         ))}
-                        <Button className='text-lg !leading-xl'>get TOKENS</Button>
-                        <div className="flex items-center gap-2">
+                        <Button className=' text-base sm:text-lg !leading-xl'>get TOKENS</Button>
+                        <div className="md:flex hidden items-center gap-2">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
                                 <a key={index} href={items.url} target='_blank' rel="noreferrer" className='bg-deep-red grid place-items-center w-10 h-10 duration-300 ease-linear hover:bg-white group'>
                                     <Icon iconName={items.icon} />
@@ -43,10 +43,19 @@ const Navbar = () => {
                             ))}
                         </div>
                     </div>
-                    <div role="button" aria-label="menu icon" aria-expanded={open} onClick={toggleOpen} className="w-7 h-5 rounded-full relative md:hidden flex z-[100] cursor-pointer duration-300 ease-linear">
-                        {[0, 1, 2].map((index) => (
-                            <span key={index} className={`left-0 absolute duration-300 ease-linear bg-white h-1 rounded w-full ${index === 0 && open ? "top-1/2 -translate-y-1/2 rotate-45" : index === 0 ? "top-0" : ""} ${index === 1 && open ? "!-left-full opacity-0 top-1/2 -translate-y-1/2" : index === 1 ? "top-1/2 -translate-y-1/2" : ""} ${index === 2 && open ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-0"}`}></span>
-                        ))}
+                    <div className="flex gap-4 items-center md:hidden">
+                        <div className="flex items-center gap-2">
+                            {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
+                                <a key={index} href={items.url} target='_blank' rel="noreferrer" className='bg-deep-red grid place-items-center w-10 h-10 duration-300 ease-linear hover:bg-white group'>
+                                    <Icon iconName={items.icon} />
+                                </a>
+                            ))}
+                        </div>
+                        <div role="button" aria-label="menu icon" aria-expanded={open} onClick={toggleOpen} className="w-7 h-5 rounded-full relative md:hidden flex z-[100] cursor-pointer duration-300 ease-linear">
+                            {[0, 1, 2].map((index) => (
+                                <span key={index} className={`left-0 absolute duration-300 ease-linear bg-white h-1 rounded w-full ${index === 0 && open ? "top-1/2 -translate-y-1/2 rotate-45" : index === 0 ? "top-0" : ""} ${index === 1 && open ? "!-left-full opacity-0 top-1/2 -translate-y-1/2" : index === 1 ? "top-1/2 -translate-y-1/2" : ""} ${index === 2 && open ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-0"}`}></span>
+                            ))}
+                        </div>
                     </div>
                 </nav>
             </div>
