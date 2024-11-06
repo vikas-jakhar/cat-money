@@ -21,7 +21,11 @@ const Faqs = () => {
                                 <span className={`duration-300 ${activeIndex === index ? "rotate-180" : "rotate-0"}`}><Icon iconName="faqsQueArrow" /></span>
                             </button>
                             <div className={`grid overflow-hidden !duration-500 transition-all ${activeIndex === index ? "grid-rows-[1fr] opacity-100" : "h-0 grid-rows-[0fr] opacity-0"}`}>
-                                <p className="font-barlow text-base sm:text-lg text-white font-light md:text-xl pt-4 md:pt-8 flex flex-col gap-3 lg:gap-7 !leading-6xl">{item.answer}</p>
+                                <p className="font-barlow text-base sm:text-lg text-white font-light md:text-xl pt-4 md:pt-8 flex flex-col gap-3 lg:gap-7 !leading-6xl">{item.answer}
+                                    {activeIndex === index && index === 0 && <>
+                                        <span>   The CatMoney Token will then be listed on Uniswap at $0.20. Early participants that took part in the presale will realize up to 20x gain!</span>
+                                        <span> Also, the presale is necessary to provide liquidity for building the Red Dot Catching Machine. Instead of going the traditional route with venture capitalists, we chose a community-first approach. This way, we not only raise liquidity for the project but also share profits with our community.</span></>}
+                                </p>
                             </div>
                         </div>
                     ))}

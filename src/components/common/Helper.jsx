@@ -72,9 +72,7 @@ export const TIMELINE_PHASE_DATA_LIST = [
 export const FAQS_DATA_LIST = [
     {
         question: "Why should I buy it in the pre-sale",
-        answer: <><span>By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours.</span>
-            <span>   The CatMoney Token will then be listed on Uniswap at $0.20. Early participants that took part in the presale will realize up to 20x gain!</span>
-            <span> Also, the presale is necessary to provide liquidity for building the Red Dot Catching Machine. Instead of going the traditional route with venture capitalists, we chose a community-first approach. This way, we not only raise liquidity for the project but also share profits with our community.</span></>
+        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
     },
     {
         question: "Why is CatMoney Catch unique in the crypto space",
