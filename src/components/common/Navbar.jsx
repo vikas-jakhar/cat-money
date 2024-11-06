@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NAVBAR_DATA_LIST, SOCIAL_MEDIA_DATA_LIST } from './Helper';
 import Icon from './Icons';
 import catMoney from "../../assets/images/png/catmoney-logo.png";
+import Button from './Button';
 
 const Navbar = () => {
 
@@ -33,10 +34,7 @@ const Navbar = () => {
                                 {item.title}
                             </a>
                         ))}
-                        <button className="overflow-hidden duration-300 ease-linear rounded-lg text-white uppercase lg:pt-5 pt-4 pb-3 lg:pb-4 px-5 lg:px-[26.5px] bg-linear-gradient-red z-[1] relative group">
-                            <span className='uppercase text-lg !leading-xl font-luckiest'>get TOKENS</span>
-                            <span className='z-10 uppercase text-lg leading-xl font-luckiest absolute lg:pt-5 pt-4 pb-3 lg:pb-4 px-5 lg:px-[26.5px] grid place-items-center bg-white -top-full text-deep-red w-full h-full duration-300 ease-linear left-0 group-hover:top-0'>get TOKENS</span>
-                        </button>
+                        <Button className='text-lg !leading-xl'>get TOKENS</Button>
                         <div className="flex items-center gap-2">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
                                 <a key={index} href={items.url} target='_blank' rel="noreferrer" className='bg-deep-red grid place-items-center w-10 h-10 duration-300 ease-linear hover:bg-white group'>

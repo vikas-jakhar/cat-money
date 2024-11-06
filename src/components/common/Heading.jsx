@@ -1,6 +1,6 @@
 const Heading = ({
     reduceBelow = 1024,
-    maxFontSize = 48,
+    maxFontSize = 64,
     minFontSize = 30,
     className = '',
     children,
