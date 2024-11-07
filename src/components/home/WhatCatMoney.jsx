@@ -1,10 +1,10 @@
 import React from 'react'
 import Paragraph from '../common/Paragraph'
 import { WHAT_CAT_MONEY_DATA_LIST } from '../common/Helper'
-import jackpot from "../../assets/images/png/jackpot.png";
-import gameCat from "../../assets/images/png/game-cat.png";
-import gameFootprint from "../../assets/images/png/game-footprint.png";
-import catFootprint from "../../assets/images/png/cat-footprint.png";
+import jackpot from "../../assets/images/webp/jackpot.webp";
+import gameCat from "../../assets/images/webp/game-cat.webp";
+import gameFootprint from "../../assets/images/webp/game-footprint.webp";
+import catFootprint from "../../assets/images/webp/cat-footprint.webp";
 
 const WhatCatMoney = () => {
     return (

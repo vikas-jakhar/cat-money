@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { MASSIVE_BURGER_DATA_LIST } from '../common/Helper'
-import bonusMachine from "../../assets/images/png/bonus-machine.png";
+import bonusMachine from "../../assets/images/webp/bonus-machine.webp";
 import cat from "../../assets/images/gif/funny-cat.gif";
 import Icon from '../common/Icons';
 import Button from '../common/Button';
-import certikIcon from "../../assets/images/png/certik-icon.png";
+import certikIcon from "../../assets/images/webp/certik-icon.webp";
 
 const MassiveBurgerz = () => {
 

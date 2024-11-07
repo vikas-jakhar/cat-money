@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NAVBAR_DATA_LIST, SOCIAL_MEDIA_DATA_LIST } from './Helper';
 import Icon from './Icons';
-import catMoney from "../../assets/images/png/catmoney-logo.png";
+import catMoney from "../../assets/images/webp/catmoney-logo.webp";
 import Button from './Button';
 
 const Navbar = () => {

@@ -3,7 +3,7 @@ import Navbar from '../common/Navbar'
 import { HERO_DATA_LIST } from '../common/Helper'
 import Paragraph from '../common/Paragraph'
 import Icon from '../common/Icons'
-import footprint from "../../assets/images/png/footprint.png";
+import footprint from "../../assets/images/webp/footprint.webp";
 
 const Hero = () => {
     return (

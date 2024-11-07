@@ -1,16 +1,16 @@
-import catJump from "../../assets/images/png/cat-jump.png";
-import catCatch from "../../assets/images/png/cat-catch-dot.png";
-import dotMachine from "../../assets/images/png/dot-machine.png";
-import poolCat from "../../assets/images/png/pool-cat.png";
-import machineCat from "../../assets/images/png/machine-cat.png";
-import catchCat from "../../assets/images/png/catch-cat.png";
-import winMachine from "../../assets/images/png/win-machine.png";
-import hassleCat from "../../assets/images/png/hassle-cat.png";
-import catFood from "../../assets/images/png/cat-food.png";
-import communityCat from "../../assets/images/png/community-cat.png";
-import catThemed from "../../assets/images/png/cat-themed.png";
-import shieldIcon from "../../assets/images/png/shield-icon.png";
-import catPortion from "../../assets/images/png/cat-portion.png";
+import catJump from "../../assets/images/webp/cat-jump.webp";
+import catCatch from "../../assets/images/webp/cat-catch-dot.webp";
+import dotMachine from "../../assets/images/webp/dot-machine.webp";
+import poolCat from "../../assets/images/webp/pool-cat.webp";
+import machineCat from "../../assets/images/webp/machine-cat.webp";
+import catchCat from "../../assets/images/webp/catch-cat.webp";
+import winMachine from "../../assets/images/webp/win-machine.webp";
+import hassleCat from "../../assets/images/webp/hassle-cat.webp";
+import catFood from "../../assets/images/webp/cat-food.webp";
+import communityCat from "../../assets/images/webp/community-cat.webp";
+import catThemed from "../../assets/images/webp/cat-themed.webp";
+import shieldIcon from "../../assets/images/webp/shield-icon.webp";
+import catPortion from "../../assets/images/webp/cat-portion.webp";
 
 export const NAVBAR_DATA_LIST = [
     { title: "WHITEPAPER", url: "#whitepaper" },

@@ -1,7 +1,7 @@
 import React from 'react'
 import { HOW_IT_WORKS_DATA_LIST } from '../common/Helper'
 import Paragraph from '../common/Paragraph'
-import redLineDot from "../../assets/images/png/red-line-dot.png";
+import redLineDot from "../../assets/images/webp/red-line-dot.webp";
 
 const HowItWorks = () => {
     return (

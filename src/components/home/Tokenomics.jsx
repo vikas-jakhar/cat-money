@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../common/Heading'
-import circleGraph from "../../assets/images/png/circle-graph.png";
-import viewGraph from "../../assets/images/png/small-view-graph.png";
+import circleGraph from "../../assets/images/webp/circle-graph.webp";
+import viewGraph from "../../assets/images/webp/small-view-graph.webp";
 import { TOKENDISTRIBUTION_DATA_LIST } from '../common/Helper';
 
 const Tokenomics = () => {
