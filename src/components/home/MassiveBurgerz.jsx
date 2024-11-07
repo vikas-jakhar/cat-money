@@ -32,7 +32,7 @@ const MassiveBurgerz = () => {
             <div className="container lg:mt-2">
                 <div className="flex justify-between gap-7 lg:gap-5 lg:flex-row flex-col items-center lg:items-start">
                     <div className="max-w-[522px] w-full">
-                        <h2 className='font-normal lg:mt-3.5 pb-4 text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
+                        <h2 className='font-normal lg:mt-3.5 sm:pb-4 text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
                         {MASSIVE_BURGER_DATA_LIST.map((items, index) => (
                             <div key={index} className="lg:mt-6 mt-4">
                                 <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-8xl md:text-custom-9xl lg:text-custom-11xl font-normal tracking-3xl'>{items.title}</p>
