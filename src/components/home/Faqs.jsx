@@ -15,7 +15,7 @@ const Faqs = () => {
                 <h2 className='font-normal text-4xl md:text-[64px] font-luckiest tracking-xl text-off-pink text-center lg:text-left !leading-3xl'>FAQ</h2>
                 <div className="mt-5 sm:mt-8 lg:mt-[53px] flex flex-col gap-3 sm:gap-4">
                     {FAQS_DATA_LIST.map((item, index) => (
-                        <div className="bg-light-black p-5 sm:p-6 lg:px-10 lg:py-8 !duration-500 transition-all">
+                        <div key={index} className="bg-light-black p-5 sm:p-6 lg:px-10 lg:py-8 !duration-500 transition-all">
                             <button onClick={() => handleToggle(index)} className="flex items-center justify-between gap-5 w-full">
                                 <span className="text-white font-bold font-comic !leading-3xl text-lg sm:text-xl md:text-2xl text-start">{item.question}?</span>
                                 <span className={`duration-300 ${activeIndex === index ? "rotate-180" : "rotate-0"}`}><Icon iconName="faqsQueArrow" /></span>

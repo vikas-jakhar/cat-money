@@ -18,7 +18,7 @@ const Tokenomics = () => {
                         {TOKENDISTRIBUTION_DATA_LIST.map((items, index) => (
                             <div key={index} className="flex gap-4 justify-between items-start mt-5 sm:mt-8 xl:mt-10">
                                 <span className={`flex rounded-full mt-2 sm:mt-3 p-3 sm:p-5 ${index === 2 || index === 4 || index === 2 ? "bg-off-brown" : index === 0 ? "bg-off-white" : index === 1 ? "bg-off-pink" : index === 3 ? "bg-deep-brown" : "bg-light-brown"}`}></span>
-                                <p className={`text-transparent text-stroke text-4xl sm:text-custom-6xl xl:text-custom-xs font-luckiest tracking-3xl font-normal !leading-2xl ${index === 6 ? "sm:mr-7 mr-4" : ""}`}>{items.percentage}%</p>
+                                <p className={`text-transparent text-stroke text-4xl sm:text-custom-8xl xl:text-custom-9xl font-luckiest tracking-3xl font-normal !leading-2xl ${index === 6 ? "sm:mr-7 mr-4" : ""}`}>{items.percentage}%</p>
                                 <div className="flex flex-col max-w-[556px] w-full">
                                     <p className='text-white font-bold text-xl sm:text-custom-sm font-comic !leading-5xl'>{items.title}</p>
                                     <p className={`mt-2 text-white font-light font-barlow !leading-6xl ${index === 0 || index === 1 || index === 2 || index === 3 ? "sm:text-base text-sm" : "sm:text-xl text-lg"}`}>{items.description}{index === 6 && <span className='font-bold'> 24 months </span>}{index === 6 && <>to demonstrate the team's commitment.</>}</p>

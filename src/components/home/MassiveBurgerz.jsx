@@ -4,6 +4,7 @@ import bonusMachine from "../../assets/images/png/bonus-machine.png";
 import cat from "../../assets/images/gif/funny-cat.gif";
 import Icon from '../common/Icons';
 import Button from '../common/Button';
+import certikIcon from "../../assets/images/png/certik-icon.png";
 
 const MassiveBurgerz = () => {
 
@@ -34,7 +35,7 @@ const MassiveBurgerz = () => {
                         <h2 className='font-normal text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
                         {MASSIVE_BURGER_DATA_LIST.map((items, index) => (
                             <div key={index} className="lg:mt-10 md:mt-7 sm:mt-5 mt-4">
-                                <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-6xl md:text-custom-7xl lg:text-custom-8xl font-normal tracking-3xl'>{items.title}</p>
+                                <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-8xl md:text-custom-10xl lg:text-custom-11xl font-normal tracking-3xl'>{items.title}</p>
                                 <p className='font-comic font-bold text-white text-center lg:text-left text-xl sm:text-2xl md:text-custom-3xl !leading-3xl'>{items.subTitle}</p>
                                 <p className='font-barlow font-light !leading-6xl text-center lg:text-left text-white mt-2 md:mt-4 text-base sm:text-lg md:text-xl'>{items.description}</p>
                             </div>
@@ -65,7 +66,7 @@ const MassiveBurgerz = () => {
                             <p className='font-normal font-comic text-black text-custom-xl !leading-3xl'>Mins</p>
                             <p className='font-normal font-comic text-black text-custom-xl !leading-3xl'>Secs</p>
                         </div>
-                        <h2 className='md:mt-10 sm:mt-7 mt-5 font-luckiest font-normal text-off-pink text-3xl sm:text-5xl xl:text-custom-6xl tracking-2xl !leading-2xl text-center'>Join the catMoney Catch <span className='font-luckiest text-black'>Pre-SaLE</span></h2>
+                        <h2 className='md:mt-10 sm:mt-7 mt-5 font-luckiest font-normal text-off-pink text-3xl sm:text-5xl xl:text-custom-8xl tracking-2xl !leading-2xl text-center'>Join the catMoney Catch <span className='font-luckiest text-black'>Pre-SaLE</span></h2>
                         <div className="md:mt-10 sm:mt-7 mt-5 flex gap-4 items-center sm:items-start flex-col sm:flex-row justify-between">
                             <div className="max-w-[178px] bg-off-pink rounded-full overflow-hidden">
                                 <img src={cat} alt="cat" className='w-full' />
@@ -80,17 +81,18 @@ const MassiveBurgerz = () => {
                             <span className='flex absolute h-full w-[0.9px] top-0 left-1/2 bg-black -translate-x-1/2'></span>
                             <div className="w-1/2 flex flex-col items-center">
                                 <p className='font-barlow font-bold text-base sm:text-lg !leading-5xl text-center'>USD you pay</p>
-                                <p className='text-black opacity-30 mt-2 font-barlow font-normal text-4xl sm:text-custom-5xl !leading-5xl text-center'>$0</p>
+                                <input type="number" className='text-black opacity-30 mt-2 font-barlow font-normal text-4xl sm:text-custom-5xl !leading-5xl text-center outline-none max-w-[223px] w-full bg-transparent' placeholder='$0' />
                             </div>
-                            <div className="w-1/2 flex flex-col items-center ">
+                            <div className="w-1/2 flex flex-col items-center">
                                 <p className='font-barlow font-bold text-base sm:text-lg !leading-5xl text-center'>CatMoney</p>
-                                <div className="flex items-center gap-2 mt-2">
+                                <div className="flex items-center gap-2 mt-2 ml-14">
                                     <Icon iconName='footprint' />
-                                    <p className='text-black opacity-30 font-barlow font-normal text-4xl sm:text-custom-5xl !leading-5xl text-center'>0</p>
+                                    <input type="number" className='text-black opacity-30 font-barlow font-normal text-4xl sm:text-custom-5xl !leading-5xl text-left outline-none max-w-[100px] w-full bg-transparent' placeholder='0' />
                                 </div>
                             </div>
                         </div>
                         <Button className='sm:text-2xl text-base !leading-2xl w-full hover:shadow-xl gap-2 sm:gap-4 hover:shadow-off-red !flex justify-center items-center'>Proceed to Checkout MEOW <Icon iconName='rightArrow' /></Button>
+                        <img src={certikIcon} alt="icon" className='max-w-[128px] w-full mt-8 mx-auto' />
                     </div>
                 </div>
             </div>

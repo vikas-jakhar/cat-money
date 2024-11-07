@@ -17,8 +17,8 @@ const Icon = ({ iconName = '', className = '' }) => {
                     <circle cx="197.333" cy="276.778" r="4.66667" fill="#B90000" />
                 </g>
                 <defs>
-                    <filter id="filter0_d_0_23" x="150.667" y="230.111" width="93.3333" height="93.3333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <filter id="filter0_d_0_23" x="150.667" y="230.111" width="93.3333" height="93.3333" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                         <feMorphology radius="10" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_23" />
                         <feOffset />
@@ -29,8 +29,8 @@ const Icon = ({ iconName = '', className = '' }) => {
                         <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_23" result="shape" />
                     </filter>
                     <linearGradient id="paint0_linear_0_23" x1="198.364" y1="275.372" x2="198.364" y2="6.69911" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#B90000" />
-                        <stop offset="1" stop-color="#B90000" stop-opacity="0" />
+                        <stop stopColor="#B90000" />
+                        <stop offset="1" stopColor="#B90000" stopOpacity="0" />
                     </linearGradient>
                 </defs>
             </svg>

@@ -5,6 +5,12 @@ import poolCat from "../../assets/images/png/pool-cat.png";
 import machineCat from "../../assets/images/png/machine-cat.png";
 import catchCat from "../../assets/images/png/catch-cat.png";
 import winMachine from "../../assets/images/png/win-machine.png";
+import hassleCat from "../../assets/images/png/hassle-cat.png";
+import catFood from "../../assets/images/png/cat-food.png";
+import communityCat from "../../assets/images/png/community-cat.png";
+import catThemed from "../../assets/images/png/cat-themed.png";
+import shieldIcon from "../../assets/images/png/shield-icon.png";
+import catPortion from "../../assets/images/png/cat-portion.png";
 
 export const NAVBAR_DATA_LIST = [
     { title: "WHITEPAPER", url: "#" },
@@ -30,6 +36,14 @@ export const HOW_IT_WORKS_DATA_LIST = [
     { image: machineCat, number: "2", title: "Build the Machine", description: "Watch as the community’s contributions fund the construction of the Red Dot Catching Machine" },
     { image: catchCat, number: "3", title: "Catch the Red Dot", description: "When the machine is complete, the red dot is caught, and the jackpot is awarded to one or two lucky winners" },
     { image: winMachine, number: "4", title: "Repeat and Win More", description: "The pool resets, and a new machine is built the following week. Every month, a special bonus machine with a larger jackpot is also constructed." },
+]
+export const THE_MAGIC_DATA_LIST = [
+    { image: hassleCat, title: "Hassle-Free Profits", description: "Purrticipate and watch ur moneys grow effortlessly!" },
+    { image: catFood, title: "Automatic Rewards", description: "Win rewards automatically as da pool grows and da red dot is caught." },
+    { image: communityCat, title: "Community Empowered", description: "Pool moneys with fellow cat lovers and crypto enthusiasts." },
+    { image: catThemed, title: "Fun and Engaging", description: "Enjoy da thrill of da chase with our playful cat-themed game." },
+    { image: shieldIcon, title: "Transparent and Secure", description: "Built on blockchain technology, ensuring all transactions are secure and visible." },
+    { image: catPortion, title: "Support Charities", description: "A portion of da pooled moneys goes to support animal shelters and cat-related causes" },
 ]
 export const TIMELINE_PHASE_DATA_LIST = [
     {
