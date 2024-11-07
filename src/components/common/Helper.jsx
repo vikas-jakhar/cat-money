@@ -86,7 +86,8 @@ export const TIMELINE_PHASE_DATA_LIST = [
 export const FAQS_DATA_LIST = [
     {
         question: "Why should I buy it in the pre-sale",
-        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
+        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours.",
+        description: "The CatMoney Token will then be listed on Uniswap at $0.20. Early participants that took part in the presale will realize up to 20x gain!",
     },
     {
         question: "Why is CatMoney Catch unique in the crypto space",
