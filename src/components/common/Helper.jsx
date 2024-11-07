@@ -13,8 +13,8 @@ import shieldIcon from "../../assets/images/png/shield-icon.png";
 import catPortion from "../../assets/images/png/cat-portion.png";
 
 export const NAVBAR_DATA_LIST = [
-    { title: "WHITEPAPER", url: "#" },
-    { title: "ACCOUNT LOGIN", url: "#" },
+    { title: "WHITEPAPER", url: "#whitepaper" },
+    { title: "ACCOUNT LOGIN", url: "/" },
 ]
 export const SOCIAL_MEDIA_DATA_LIST = [
     { icon: "twitter", url: "https://x.com/i/flow/login" },

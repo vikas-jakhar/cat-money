@@ -5,8 +5,8 @@ import redLineDot from "../../assets/images/png/red-line-dot.png";
 
 const HowItWorks = () => {
     return (
-        <section className='bg-light-black md:py-11 sm:py-7 py-5'>
-            <div className="container mt-8 pt-0.5">
+        <section className='bg-light-black py-11'>
+            <div className="container md:mt-8 lg:pt-0.5">
                 <h2 className='font-normal text-4xl md:text-5xl font-luckiest tracking-xl text-off-pink text-center lg:text-left !leading-3xl'>Here’s how it works</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 justify-between gap-x-10 pt-1 w-full">
                     {HOW_IT_WORKS_DATA_LIST.map((item, index) => (
