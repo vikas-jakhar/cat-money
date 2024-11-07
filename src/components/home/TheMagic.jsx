@@ -5,7 +5,7 @@ import { THE_MAGIC_DATA_LIST } from '../common/Helper';
 const TheMagic = () => {
     return (
         <section className='lg:py-16 md:py-14 sm:py-12 py-10'>
-            <div className="container pt-3 xl:mb-20 md:mb-10 sm:mb-5 pb-0.5">
+            <div className="container pt-3 xl:mb-16 xl:pb-2 md:mb-10 sm:mb-5">
                 <Paragraph className='max-w-[630px] w-full'>The magic happens through our innovative pooling and reward mechanism, where contributions are funneled back into the community.</Paragraph>
                 <Paragraph className='max-w-[630px] w-full lg:mt-9 md:mt-7 sm:mt-5 mt-3'>Each successful red dot catch triggers the purchase and immediate burning of CatMoney Tokens, increasing demand, reducing supply, and driving prices to the moon. Pool ur moneys, catch da red dot, and watch ur returns skyrocket!</Paragraph>
                 <div className="lg:mt-20 md:mt-16 sm:mt-14 mt-10 grid grid-cols-1 max-w-[1183px] sm:grid-cols-2 justify-between gap-y-10 md:gap-y-12 lg:gap-y-16 gap-x-5 md:gap-x-10">
