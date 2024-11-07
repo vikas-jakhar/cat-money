@@ -76,19 +76,19 @@ export const FAQS_DATA_LIST = [
     },
     {
         question: "Why is CatMoney Catch unique in the crypto space",
-        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
+        answer: "CatMoney Catch combines the fun of meme culture with real crypto earnings through an innovative cyclical jackpot system. By actively engaging the community in the red dot chase, reducing token supply via burns, and offering multiple ways to earn, CatMoney Catch creates a self-perpetuating ecosystem that stands out in the DeFi landscape."
     },
     {
         question: "Do I have to operate the Red Dot Catching Machine myself",
-        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
+        answer: "Nope! The Red Dot Catching Machine is automated and operates through our smart contracts on the blockchain. All you need to do is purrticipate by pooling your moneys, and the machine will do the rest. Sit back, relax, and watch the magic happen!"
     },
     {
         question: "How are the rewards calculated",
-        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
+        answer: "Rewards are distributed based on your contribution to the pool. The more CatMoney Tokens you contribute, the higher your chances of winning big in the weekly and monthly jackpots. Additionally, through our Liquidity Mining and Staking programs, you can earn passive income proportional to your participation."
     },
     {
         question: "I've completed the purchase, now what",
-        answer: "By taking part in the presale, you can acquire CatMoney Tokens (CATMONEY) at a significant discount. The price per token will start at $0.01 and increase every 48 hours."
+        answer: "Pawesome! After purchasing CatMoney Tokens, you can:"
     }
 ];
 export const TOKENDISTRIBUTION_DATA_LIST = [
