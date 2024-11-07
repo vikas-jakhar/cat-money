@@ -35,7 +35,7 @@ const ScrollToTop = () => {
     return (
         <button
             onClick={Scroll}
-            className="bg-white border border-off-black hover:border-off-yellow group hover:shadow-5xl scroll-button place-items-center xl:size-16 md:size-14 sm:size-12 size-10 rounded-full fixed bottom-[2%] cursor-pointer duration-300 ease-linear z-50"
+            className="bg-white border border-off-black hover:border-off-yellow group hover:shadow-4xl scroll-button place-items-center xl:size-16 md:size-14 sm:size-12 size-10 rounded-full fixed bottom-[2%] cursor-pointer duration-300 ease-linear z-50"
             style={{
                 display: visible ? 'grid' : 'none',
                 right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '1.7%',

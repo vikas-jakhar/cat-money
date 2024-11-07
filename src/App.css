@@ -10,10 +10,26 @@
     font-display: swap;
 }
 
+::-webkit-scrollbar {
+    @apply w-2
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-white
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-off-red
+}
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+.scroll-button:hover .scroll-icon {
+    transform: rotateY(180deg);
 }
 
 input[type="number"] {

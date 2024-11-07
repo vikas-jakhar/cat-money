@@ -5,7 +5,7 @@ import redLineDot from "../../assets/images/webp/red-line-dot.webp";
 
 const HowItWorks = () => {
     return (
-        <section className='bg-light-black py-11'>
+        <section className='bg-light-black py-11 shadow-3xl'>
             <div className="container md:mt-8 lg:pt-0.5">
                 <h2 className='font-normal text-4xl md:text-5xl font-luckiest tracking-xl text-off-pink text-center lg:text-left !leading-3xl'>Here’s how it works</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 justify-between gap-x-10 pt-1 w-full">

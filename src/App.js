@@ -1,4 +1,5 @@
 import './App.css';
+import ScrollToTop from './components/common/ScrollToTop';
 import AsSeen from './components/home/AsSeen';
 import Faqs from './components/home/Faqs';
 import Hero from './components/home/Hero';
@@ -21,6 +22,7 @@ function App() {
       <Tokenomics />
       <Roadmap />
       <Faqs />
+      <ScrollToTop />
     </div>
   );
 }
