@@ -11,7 +11,7 @@ const TheMagic = () => {
                 <div className="lg:mt-20 md:mt-16 sm:mt-14 mt-10 grid grid-cols-1 max-w-[1183px] sm:grid-cols-2 justify-between gap-y-10 md:gap-y-12 lg:gap-y-16 gap-x-5 md:gap-x-10">
                     {THE_MAGIC_DATA_LIST.map((items, index) => (
                         <div key={index} className={`max-w-[534px] w-full flex gap-6 ${index === 1 || index === 3 || index === 5 ? "sm:ml-auto" : ""}`}>
-                            <img fetchPriority='high' decoding='async' src={items.image} alt="cat-icon" className='lg:w-24 pointer-events-none lg:h-24 w-16 h-16' />
+                            <img src={items.image} alt="cat-icon" className='lg:w-24 pointer-events-none lg:h-24 w-16 h-16' />
                             <div className="flex flex-col">
                                 <p className='text-white font-comic font-bold text-lg md:text-xl lg:text-2xl !leading-3xl'>{items.title}:</p>
                                 <Paragraph className='mt-2'>{items.description}</Paragraph>

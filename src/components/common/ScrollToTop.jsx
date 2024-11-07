@@ -41,7 +41,7 @@ const ScrollToTop = () => {
                 right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '1.7%',
             }}
         >
-            <img fetchPriority='high' decoding='async' src={scrollIcon} alt="scrollIcon" className='w-1/2 relative duration-300 ease-linear scroll-icon' />
+            <img src={scrollIcon} alt="scrollIcon" className='w-1/2 relative duration-300 ease-linear scroll-icon' />
         </button>
     );
 };

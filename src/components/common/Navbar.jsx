@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="relative z-50 md:py-7 sm:py-5 py-4">
             <div className="container">
                 <nav className="flex items-center justify-between relative">
-                    <a href="/" className="lg:max-w-[108px] max-w-14 sm:max-w-20 w-full"><img fetchPriority='high' decoding='async' src={catMoney} alt="catMoney" className='w-full' /></a>
+                    <a href="/" className="lg:max-w-[108px] max-w-14 sm:max-w-20 w-full"><img src={catMoney} alt="catMoney" className='w-full' /></a>
                     <div className={`${open ? "left-0 bg-off-black" : "-left-full"} flex items-center justify-center z-[90] md:bg-transparent fixed flex-col w-full h-screen top-0 md:relative md:bg-none md:flex-row gap-8 md:h-fit md:w-fit md:left-auto duration-300 ease-linear`}>
                         {NAVBAR_DATA_LIST.map((item, index) => (
                             <a key={index} href={item.url} aria-label={item.title} onClick={toggleOpen} className="text-white uppercase !leading-3xl duration-300 font-inter font-normal text-sm ease-linear w-fit relative after:absolute after:duration-300 after:ease-linear after:-bottom-1 hover:after:left-0 after:bg-off-red after:w-0 after:h-0.5 hover:after:w-full hover:after:right-auto after:right-0">

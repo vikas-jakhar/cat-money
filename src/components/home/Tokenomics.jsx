@@ -12,8 +12,8 @@ const Tokenomics = () => {
                 <p className='text-center lg:text-left text-white font-comic font-bold sm:text-4xl text-2xl md:text-custom-6xl !leading-5xl mt-0.5'><span className='font-comic mr-1 tracking-3xl'>1.</span>5B Total Tokens. No Tax.</p>
                 <p className='sm:mt-4 mt-2 text-white text-center lg:text-left font-barlow font-normal md:text-3xl sm:text-2xl text-xl !leading-6xl'>Token Contract Address (0x081051.....asf)</p>
                 <div className="sm:mt-12 mt-8 flex justify-between items-center lg:flex-row flex-col xl:items-start gap-3">
-                    <img fetchPriority='high' decoding='async' src={circleGraph} alt="circleGraph" className='max-w-[555px] pointer-events-none w-full hidden xl:flex' />
-                    <img fetchPriority='high' decoding='async' src={viewGraph} alt="viewGraph" className='sm:max-w-[400px] pointer-events-none max-w-[250px] w-full xl:hidden' />
+                    <img src={circleGraph} alt="circleGraph" className='max-w-[555px] pointer-events-none w-full hidden xl:flex' />
+                    <img src={viewGraph} alt="viewGraph" className='sm:max-w-[400px] pointer-events-none max-w-[250px] w-full xl:hidden' />
                     <div className="max-w-[722px] w-full xl:pt-4">
                         {TOKENDISTRIBUTION_DATA_LIST.map((items, index) => (
                             <div key={index} className="flex gap-4 justify-between items-start mt-5 sm:mt-8 xl:mt-10">

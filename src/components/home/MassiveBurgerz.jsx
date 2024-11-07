@@ -45,7 +45,7 @@ const MassiveBurgerz = () => {
                                 <p className='text-off-pink font-normal tracking-2xl font-luckiest text-2xl sm:text-custom-5xl !leading-3xl'>BONUS: </p>
                                 <p className='text-white font-bold font-barlow text-base sm:text-xl !leading-6xl'>Get even MOAR BURGERZ with da red dot mashien</p>
                             </div>
-                            <img fetchPriority='high' decoding='async' src={bonusMachine} alt="bonusMachine" className='sm:max-w-[233px] pointer-events-none max-w-[300px] w-full' />
+                            <img src={bonusMachine} alt="bonusMachine" className='sm:max-w-[233px] pointer-events-none max-w-[300px] w-full' />
                         </div>
                     </div>
                     <div className="max-w-[630px] w-full border-4 sm:border-8 border-off-pink bg-white rounded-[40px] sm:py-10 p-5 sm:px-8 lg:px-5 xl:px-8">
@@ -69,7 +69,7 @@ const MassiveBurgerz = () => {
                         <h2 className='xl:mt-10 sm:mt-7 mt-5 font-luckiest font-normal text-off-pink text-3xl sm:text-custom-6xl xl:text-custom-8xl tracking-2xl !leading-2xl text-center'>Join the catMoney Catch <span className='font-luckiest text-black'>Pre-SaLE</span></h2>
                         <div className="xl:mt-10 sm:mt-7 mt-5 flex gap-4 items-center sm:items-start flex-col sm:flex-row justify-between">
                             <div className="max-w-[178px] bg-off-pink rounded-full overflow-hidden">
-                                <img fetchPriority='high' decoding='async' src={cat} alt="cat" className='w-full pointer-events-none' />
+                                <img src={cat} alt="cat" className='w-full pointer-events-none' />
                             </div>
                             <div className="max-w-[338px] w-full">
                                 <p className='font-comic font-bold text-xl text-center sm:text-left sm:text-2xl xl:text-custom-3xl !leading-3xl'>Token Launches August 1</p>
@@ -92,7 +92,7 @@ const MassiveBurgerz = () => {
                             </div>
                         </div>
                         <Button className='sm:text-2xl text-base !leading-2xl w-full hover:shadow-xl gap-2 sm:gap-4 hover:shadow-off-red !flex justify-center items-center'>Proceed to Checkout MEOW <Icon iconName='rightArrow' /></Button>
-                        <img fetchPriority='high' decoding='async' src={certikIcon} alt="icon" className='max-w-[128px] pointer-events-none w-full mt-8 mx-auto' />
+                        <img src={certikIcon} alt="icon" className='max-w-[128px] pointer-events-none w-full mt-8 mx-auto' />
                     </div>
                 </div>
             </div>
