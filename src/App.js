@@ -1,5 +1,4 @@
 import './App.css';
-import PreLoader from './components/common/PreLoader';
 import ScrollToTop from './components/common/ScrollToTop';
 import AsSeen from './components/home/AsSeen';
 import Faqs from './components/home/Faqs';
@@ -24,7 +23,6 @@ function App() {
       <Roadmap />
       <Faqs />
       <ScrollToTop />
-      <PreLoader />
     </div>
   );
 }
