@@ -6,7 +6,7 @@ import Heading from '../common/Heading'
 const Roadmap = () => {
     return (
         <section className='lg:py-20 md:py-16 sm:py-14 py-12'>
-            <div className='container md:py-16 lg:my-0.5'>
+            <div className='container lg:py-16 lg:my-0.5'>
                 <Heading>Our roadmap</Heading>
                 <div className='mt-6 sm:mt-10 lg:mt-[54px] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-start'>
                     {TIMELINE_PHASE_DATA_LIST.map((item, index) => (

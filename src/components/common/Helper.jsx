@@ -14,7 +14,7 @@ import catPortion from "../../assets/images/webp/cat-portion.webp";
 
 export const NAVBAR_DATA_LIST = [
     { title: "WHITEPAPER", url: "#whitepaper" },
-    { title: "ACCOUNT LOGIN", url: "/" },
+    { title: "ACCOUNT LOGIN", url: "#account" },
 ]
 export const SOCIAL_MEDIA_DATA_LIST = [
     { icon: "twitter", url: "https://x.com/i/flow/login" },
