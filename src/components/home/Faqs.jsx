@@ -4,9 +4,9 @@ import Icon from "../common/Icons";
 
 const Faqs = () => {
 
-    const [activeIndex, setActiveIndex] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(0);
     const handleToggle = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
+        setActiveIndex(activeIndex === index ? 0 : index);
     };
 
     return (
