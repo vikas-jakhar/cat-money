@@ -19,7 +19,7 @@ const Hero = () => {
                     {HERO_DATA_LIST.map((items, index) => (
                         <div key={index} className="lg:max-w-[352px] sm:w-1/2 w-full px-3 lg:px-0 lg:w-full mt-8 lg:mt-0">
                             <div className="xl:h-[200px] lg:h-[177px]">
-                                <img src={items.image} alt="icon" loading='lazy' className={`${index === 0 ? "ml-auto max-w-[200px]" : index === 2 ? "max-w-[402px] xl:max-w-[478px] lg:absolute right-1 top-0.5 xl:top-auto xl:right-16" : ""} w-full object-contain md:object-cover max-h-[156px] md:max-h-[193px] pointer-events-none lg:max-h-fit`} />
+                                <img fetchPriority='high' decoding='async' src={items.image} alt="icon" className={`${index === 0 ? "ml-auto max-w-[200px]" : index === 2 ? "max-w-[402px] xl:max-w-[478px] lg:absolute right-1 top-0.5 xl:top-auto xl:right-16" : ""} w-full object-contain md:object-cover max-h-[156px] md:max-h-[193px] pointer-events-none lg:max-h-fit`} />
                             </div>
                             <h2 className='mt-8 font-normal text-center lg:text-left font-luckiest tracking-xl text-xl md:text-2xl text-white !leading-3xl'>{(index === 0 || index === 2) && <span className='text-off-pink'>{items.title}</span>} {items.subTitle} {index === 1 && <span className='text-off-pink'>{items.title}</span>}</h2>
                             <Paragraph className='mt-2 text-center lg:text-left'>{items.description}</Paragraph>
@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
                 <Icon iconName='redDotLine' className='lg:-left-[26px] md:left-4 left-0 absolute xl:w-auto flex w-[30%] sm:w-[20%] md:w-[16%] bottom-[63%] sm:bottom-[53%] md:bottom-[58%] lg:bottom-[39%]' />
             </div>
-            <img src={footprint} alt="footprint" className='right-0 absolute pointer-events-none top-[20%]' />
+            <img fetchPriority='high' decoding='async' src={footprint} alt="footprint" className='right-0 absolute pointer-events-none top-[20%]' />
         </section>
     )
 }
