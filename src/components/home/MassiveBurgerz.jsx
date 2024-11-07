@@ -29,7 +29,7 @@ const MassiveBurgerz = () => {
 
     return (
         <section className='py-12'>
-            <div className="container lg:mt-2">
+            <div className="container">
                 <div className="flex justify-between gap-7 lg:gap-5 lg:flex-row flex-col items-center lg:items-start">
                     <div className="max-w-[522px] w-full">
                         <h2 className='font-normal lg:mt-3.5 sm:pb-4 text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
