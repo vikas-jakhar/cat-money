@@ -9,7 +9,7 @@ import catFootprint from "../../assets/images/webp/cat-footprint.webp";
 const WhatCatMoney = () => {
     return (
         <section className='md:py-11 sm:py-7 py-5 relative'>
-            <div className="container mb-14 pb-1 lg:-mt-1">
+            <div className="container mb-14 pb-1 lg:-mt-2.5">
                 <div className="flex justify-between items-center gap-5 lg:flex-row flex-col">
                     <div className="max-w-[630px] w-full relative z-10">
                         <h2 className='font-normal text-4xl md:text-5xl font-luckiest tracking-xl text-off-pink text-center lg:text-left !leading-3xl'>What is CatMoney Catch?</h2>
