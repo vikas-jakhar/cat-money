@@ -7,11 +7,11 @@ import { TOKENDISTRIBUTION_DATA_LIST } from '../common/Helper';
 const Tokenomics = () => {
     return (
         <section className='bg-light-black lg:py-20 md:py-16 sm:py-14 py-12'>
-            <div className="container lg:pb-2.5">
+            <div className="container">
                 <Heading>TOKENOMICS</Heading>
                 <p className='text-center lg:text-left text-white font-comic font-bold sm:text-4xl text-2xl md:text-custom-6xl !leading-5xl mt-0.5'><span className='font-comic mr-1 tracking-3xl'>1.</span>5B Total Tokens. No Tax.</p>
                 <p className='sm:mt-4 mt-2 text-white text-center lg:text-left font-barlow font-normal md:text-3xl sm:text-2xl text-xl !leading-6xl'>Token Contract Address (0x081051.....asf)</p>
-                <div className="sm:mt-12 mt-8 lg:pt-1 flex justify-between items-center lg:flex-row flex-col xl:items-start gap-3">
+                <div className="sm:mt-12 mt-8 flex justify-between items-center lg:flex-row flex-col xl:items-start gap-3">
                     <img src={circleGraph} alt="circleGraph" className='max-w-[555px] w-full hidden xl:flex' />
                     <img src={viewGraph} alt="viewGraph" className='sm:max-w-[400px] max-w-[250px] w-full xl:hidden' />
                     <div className="max-w-[722px] w-full xl:pt-4">
