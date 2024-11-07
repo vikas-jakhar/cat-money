@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
             <Navbar />
             <div className="container mt-5 relative z-10">
-                <p className='text-white text-center font-comic font-normal text-xl lg:text-2xl xl:text-custom-3xl !leading-4xl'>Pool Ur Moneys, Catch Da Red Dot, and Win Unlimited CheeƧburgerz!</p>
+                <p className='text-white text-center font-comic font-normal text-xl lg:text-2xl xl:text-custom-4xl !leading-4xl'>Pool Ur Moneys, Catch Da Red Dot, and Win Unlimited CheeƧburgerz!</p>
                 <h2 className='xl:mt-7 mt-4 text-off-pink font-luckiest font-normal tracking-2xl !leading-2xl text-4xl sm:text-5xl lg:text-6xl md:px-4 xl:text-custom-10xl text-center xl:px-14'>Hoomin...Catch the Red Dot, Win CheeSburgerz</h2>
                 <div className="lg:mt-11 flex flex-row flex-wrap lg:flex-nowrap justify-center mx-xl-0 xl:-mx-5 lg:gap-6 xl:gap-12 relative">
                     {HERO_DATA_LIST.map((items, index) => (

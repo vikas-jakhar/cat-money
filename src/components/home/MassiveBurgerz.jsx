@@ -36,13 +36,13 @@ const MassiveBurgerz = () => {
                         {MASSIVE_BURGER_DATA_LIST.map((items, index) => (
                             <div key={index} className="lg:mt-10 md:mt-7 sm:mt-5 mt-4">
                                 <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-8xl md:text-custom-10xl lg:text-custom-11xl font-normal tracking-3xl'>{items.title}</p>
-                                <p className='font-comic font-bold text-white text-center lg:text-left text-xl sm:text-2xl md:text-custom-3xl !leading-3xl'>{items.subTitle}</p>
+                                <p className='font-comic font-bold text-white text-center lg:text-left text-xl sm:text-2xl md:text-custom-4xl !leading-3xl'>{items.subTitle}</p>
                                 <p className='font-barlow font-light !leading-6xl text-center lg:text-left text-white mt-2 md:mt-4 text-base sm:text-lg md:text-xl'>{items.description}</p>
                             </div>
                         ))}
                         <div className="lg:mt-10 md:mt-7 mt-6 sm:flex-row flex-col flex items-center justify-between gap-3 py-4 px-6 bg-light-black">
                             <div className="sm:max-w-[217px] w-full">
-                                <p className='text-off-pink font-normal tracking-2xl font-luckiest text-custom-4xl !leading-3xl'>BONUS: </p>
+                                <p className='text-off-pink font-normal tracking-2xl font-luckiest text-custom-5xl !leading-3xl'>BONUS: </p>
                                 <p className='text-white font-bold font-barlow text-xl !leading-6xl'>Get even MOAR BURGERZ with da red dot mashien</p>
                             </div>
                             <img src={bonusMachine} alt="bonusMachine" className='sm:max-w-[233px] max-w-[300px] w-full' />
@@ -53,10 +53,10 @@ const MassiveBurgerz = () => {
                         <div className="mt-3 mx-auto max-w-[211px] w-full flex items-center justify-between relative">
                             {[time.d, time.h, time.m, time.s].map((unit, index) => (
                                 <React.Fragment key={index}>
-                                    <p className="font-luckiest font-normal text-custom-4xl text-off-pink !leading-xl tracking-xl">
+                                    <p className="font-luckiest font-normal text-custom-5xl text-off-pink !leading-xl tracking-xl">
                                         {format(unit)}
                                     </p>
-                                    {index < 3 && <p className='font-luckiest font-normal text-custom-4xl text-off-pink !leading-xl tracking-xl'>:</p>}
+                                    {index < 3 && <p className='font-luckiest font-normal text-custom-5xl text-off-pink !leading-xl tracking-xl'>:</p>}
                                 </React.Fragment>
                             ))}
                         </div>
@@ -72,22 +72,22 @@ const MassiveBurgerz = () => {
                                 <img src={cat} alt="cat" className='w-full' />
                             </div>
                             <div className="max-w-[338px] w-full">
-                                <p className='font-comic font-bold text-xl text-center sm:text-left sm:text-2xl xl:text-custom-2xl !leading-3xl'>Token Launches August 1</p>
+                                <p className='font-comic font-bold text-xl text-center sm:text-left sm:text-2xl xl:text-custom-3xl !leading-3xl'>Token Launches August 1</p>
                                 <p className='sm:mt-2.5 mt-1.5 font-barlow font-light text-base text-center sm:text-left xl:text-lg !leading-6xl'>Every week we will use the pool to catch da red dot. When the timer hits zero, the red dot is caught and we get the jackpot.</p>
                             </div>
                         </div>
-                        <h2 className='md:mt-10 sm:mt-7 mt-5 font-normal font-luckiest text-2xl sm:text-custom-4xl tracking-2xl text-center text-off-pink !leading-3xl'>How <span className='font-luckiest text-black'>many</span> CatMoney Tokens would you like to buy?</h2>
+                        <h2 className='md:mt-10 sm:mt-7 mt-5 font-normal font-luckiest text-2xl sm:text-custom-5xl tracking-2xl text-center text-off-pink !leading-3xl'>How <span className='font-luckiest text-black'>many</span> CatMoney Tokens would you like to buy?</h2>
                         <div className="mt-4 mb-8 w-full border-2 border-black pb-4 sm:pb-0 sm:min-h-[143px] rounded pt-4 flex bg-off-gray relative">
                             <span className='flex absolute h-full w-[0.9px] top-0 left-1/2 bg-black -translate-x-1/2'></span>
                             <div className="w-1/2 flex flex-col items-center">
                                 <p className='font-barlow font-bold text-base sm:text-lg !leading-5xl text-center'>USD you pay</p>
-                                <input type="number" className='text-black opacity-30 mt-2 font-barlow font-normal text-4xl sm:text-custom-5xl !leading-5xl text-center outline-none max-w-[223px] w-full bg-transparent' placeholder='$0' />
+                                <input type="number" className='text-black opacity-30 mt-2 font-barlow font-normal text-4xl sm:text-custom-7xl !leading-5xl text-center outline-none max-w-[223px] w-full bg-transparent' placeholder='$0' />
                             </div>
                             <div className="w-1/2 flex flex-col items-center">
                                 <p className='font-barlow font-bold text-base sm:text-lg !leading-5xl text-center'>CatMoney</p>
                                 <div className="flex items-center gap-2 mt-2 ml-14">
                                     <Icon iconName='footprint' />
-                                    <input type="number" className='text-black opacity-30 font-barlow font-normal text-4xl sm:text-custom-5xl !leading-5xl text-left outline-none max-w-[100px] w-full bg-transparent' placeholder='0' />
+                                    <input type="number" className='text-black opacity-30 font-barlow font-normal text-4xl sm:text-custom-7xl !leading-5xl text-left outline-none max-w-[100px] w-full bg-transparent' placeholder='0' />
                                 </div>
                             </div>
                         </div>
