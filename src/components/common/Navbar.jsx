@@ -34,7 +34,7 @@ const Navbar = () => {
                                 {item.title}
                             </a>
                         ))}
-                        <Button className=' text-base sm:text-lg !leading-xl'>get TOKENS</Button>
+                        <Button className='text-base sm:text-lg !leading-xl'>get TOKENS</Button>
                         <div className="md:flex hidden items-center gap-2">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
                                 <a key={index} href={items.url} target='_blank' aria-label="icon" rel="noreferrer" className='bg-deep-red rounded grid place-items-center w-10 h-10 duration-300 ease-linear hover:bg-white group'>

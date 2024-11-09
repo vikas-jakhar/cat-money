@@ -31,16 +31,18 @@ const MassiveBurgerz = () => {
         <section className='py-12'>
             <div className="container">
                 <div className="flex justify-between gap-7 lg:gap-5 lg:flex-row flex-col items-center lg:items-start">
-                    <div className="max-w-[522px] w-full">
-                        <h2 className='font-normal lg:mt-3.5 sm:pb-4 text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
-                        {MASSIVE_BURGER_DATA_LIST.map((items, index) => (
-                            <div key={index} className="lg:mt-6 mt-4">
-                                <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-8xl md:text-custom-9xl lg:text-custom-11xl font-normal tracking-3xl'>{items.title}</p>
-                                <p className='font-comic font-bold text-white text-center lg:text-left text-xl sm:text-2xl md:text-custom-4xl !leading-3xl'>{items.subTitle}</p>
-                                <p className='font-barlow font-light !leading-6xl text-center lg:text-left text-white mt-1.5 md:mt-4 text-base sm:text-lg md:text-xl'>{items.description}</p>
-                            </div>
-                        ))}
-                        <div className="lg:mt-10 md:mt-7 mt-6 sm:flex-row flex-col flex items-center justify-between gap-3 py-4 px-6 bg-light-black">
+                    <div className="lg:max-w-[522px] w-full flex flex-col items-center lg:items-start">
+                        <h2 className='font-normal max-w-[522px] w-full lg:mt-3.5 sm:pb-4 text-4xl md:text-5xl font-luckiest tracking-2xl text-off-pink text-center lg:text-left !leading-2xl'>3 Steps to Get Massive Burgerz</h2>
+                        <div className="flex flex-wrap justify-center md:gap-10  lg:gap-0 lg:flex-col">
+                            {MASSIVE_BURGER_DATA_LIST.map((items, index) => (
+                                <div key={index} className="lg:mt-6 mt-4 w-fit">
+                                    <p className='font-luckiest text-transparent text-center lg:text-left stroke-2 stroke-white text-stroke uppercase !leading-2xl text-5xl sm:text-custom-8xl md:text-custom-9xl lg:text-custom-11xl font-normal tracking-3xl'>{items.title}</p>
+                                    <p className='font-comic font-bold text-white text-center lg:text-left text-xl sm:text-2xl md:text-custom-4xl !leading-3xl'>{items.subTitle}</p>
+                                    <p className='font-barlow font-light !leading-6xl text-center lg:text-left text-white mt-1.5 md:mt-4 text-base sm:text-lg md:text-xl'>{items.description}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="lg:mt-10 md:mt-7 max-w-[522px] w-full mt-6 sm:flex-row flex-col flex items-center justify-between gap-3 py-4 px-6 bg-light-black">
                             <div className="sm:max-w-[217px] w-full">
                                 <p className='text-off-pink font-normal tracking-2xl font-luckiest text-2xl sm:text-custom-5xl !leading-3xl'>BONUS: </p>
                                 <p className='text-white font-bold font-barlow text-base sm:text-xl !leading-6xl'>Get even MOAR BURGERZ with da red dot mashien</p>
