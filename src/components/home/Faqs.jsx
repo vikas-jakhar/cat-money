@@ -4,13 +4,19 @@ import Icon from "../common/Icons";
 
 const Faqs = () => {
 
-    const [openIndex, setOpenIndx] = useState(null);
+    const [openIndex, setOpenIndx] = useState(0);
     const contentRefs = useRef([]);
     useEffect(() => {
         contentRefs.current = contentRefs.current.slice(0, FAQS_DATA_LIST.length);
-    }, []);
+        if (openIndex !== null && contentRefs.current[openIndex]) {
+            contentRefs.current[openIndex].style.maxHeight = getHeight(openIndex);
+        }
+    }, [openIndex]);
     const handleToggle = (index) => {
         setOpenIndx(openIndex === index ? null : index);
+        if (openIndex !== null && contentRefs.current[openIndex]) {
+            contentRefs.current[openIndex].style.maxHeight = '0px';
+        }
     };
     const getHeight = (index) => {
         if (contentRefs.current[index]) {

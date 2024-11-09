@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
                 <Icon iconName='redDotLine' className='lg:-left-[26px] md:left-4 left-0 absolute xl:w-auto flex w-[30%] sm:w-[20%] md:w-[16%] bottom-[63%] sm:bottom-[53%] md:bottom-[58%] lg:bottom-[39%]' />
             </div>
-            <img src={footprint} alt="footprint" className='right-0 absolute pointer-events-none top-[20%]' />
+            <img src={footprint} alt="footprint" className='right-0 z-10 hidden xl:flex absolute pointer-events-none top-[20%]' />
         </section>
     )
 }
